@@ -8,6 +8,6 @@ I know it's funny to name a repo this way but I am quite convinced that in 2019 
 
 These examples are part of my guide [The best way to become Ethereum Developer in 2018](https://medium.com/@pbrudny/the-best-way-to-become-ethereum-solidity-developer-in-2018-5606e54646e6)
 
-If you like it please share it.
+If you like it please share it with others.
 
 
