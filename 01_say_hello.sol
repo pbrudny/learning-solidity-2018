@@ -27,7 +27,7 @@ contract Greeter {
         greeting = _newGreeting;
     }
     
-    function isOwner() private returns(bool) {
+    function isOwner() view private returns(bool) {
         return msg.sender == owner;    
     }
 }

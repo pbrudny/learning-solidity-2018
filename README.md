@@ -8,6 +8,7 @@ I decided to make a set of Smart Contracts for learning purposes.
 
 I know it's funny to name a repo this way but I am quite convinced that in 2019 these examples may not work with the latest Solidity.
 
+Try to write a contract yourself before checking the code in the repo!
 
 ## Examples
 
@@ -16,5 +17,6 @@ I know it's funny to name a repo this way but I am quite convinced that in 2019 
 * display greeting to everyone who calls `sayHello` method
 * display `Hello Daddy` to the creator
 
+## Like it?
+If you like it please share it with others :)
 
-If you like it please share it with others.
