@@ -23,7 +23,6 @@ contract Greeter {
     }
 
     function setGreeting(string _newGreeting) public onlyOwner {
-        require(msg.sender == owner);
         greeting = _newGreeting;
     }
     
