@@ -14,8 +14,17 @@ Try to write a contract yourself before checking the code in the repo!
 
 ### 01_say_hello.sol
 * set greeting on creation and allow to change it by the owner (creator of the contract)
-* display greeting to everyone who calls `sayHello` method
-* display `Hello Daddy` to the creator
+* return greeting to everyone who calls `sayHello` method
+* return `Hello Daddy` to the creator
+
+### 02_balance_address_checker.sol
+* return address of the contract
+* return address of the contract's owner
+* return address of the sender
+* return balance of the contract
+* return balance of the contract's owner (ONLY if you are the owner)
+* return balance of the sender
+
 
 ## Like it?
 If you like it please share it with others :)
