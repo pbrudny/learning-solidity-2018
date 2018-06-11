@@ -24,7 +24,10 @@ Try to write a contract yourself before checking the code in the repo!
 * return balance of the contract
 * return balance of the contract's owner (ONLY if you are the owner)
 * return balance of the sender
-
+### 03_basic_random.sol
+* return random number 0-99
+* the "financial importance" of this calculation is less than minger would get for mining single block
+* https://ethereum.stackexchange.com/questions/419/when-can-blockhash-be-safely-used-for-a-random-number-when-would-it-be-unsafe?noredirect=1&lq=1
 
 ## Like it?
 If you like it please share it with others :)
