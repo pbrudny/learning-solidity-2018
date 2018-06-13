@@ -28,6 +28,28 @@ Try to write a contract yourself before checking the code in the repo!
 * return random number 0-99
 * the "financial importance" of this calculation is less than minger would get for mining single block
 * https://ethereum.stackexchange.com/questions/419/when-can-blockhash-be-safely-used-for-a-random-number-when-would-it-be-unsafe?noredirect=1&lq=1
+### 04_lottery_10_users.sol
+* 10 users limit
+* user has to pay 0.1 ether to join the Lottery
+* same user can join once
+* owner of the contract can join too
+* when 10 users joined then the winner is picked
+* winner receives all the money
+* new lottery starts when winner is pickecd
+### 05_lottery_no_limit.sol
+* no limit for users   
+* same user can join multiple times
+* owner of the contract can join too
+* owner decides when to pick the winner
+* winner receives all the money
+
+### 06_lottery_muliple_winners
+* no limit for users
+* user joins paying 1 eth and picking number 1-100
+* owner decides when to generate random number (1-100) 
+* users who picked generated numbers win
+* 0.5 of the prize is distributed to all winners
+* next lottery can start 
 
 ## Like it?
 If you like it please share it with others :)
