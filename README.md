@@ -54,6 +54,12 @@ Try to write a contract yourself before checking the code in the repo!
 * 0.5 of the prize is distributed to all winners
 * next lottery can start 
 
+### 07_basic_token
+* contract creator gets initial tokens
+* tokens can be transferred to any account
+* there is protection from overflow
+* everyone can check balances
+
 ## Like it?
 If you like it please share it with others :)
 
