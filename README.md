@@ -34,10 +34,10 @@ Try to write a contract yourself before checking the code in the repo!
 * 10 users limit
 * user has to pay 0.1 ether to join the Lottery
 * same user can join once
-* owner of the contract can join too
-* when 10 users joined then the winner is picked
+* owner of the contract can join the lottery
+* when 10 users join then the winner is picked
 * winner receives all the money
-* new lottery starts when winner is pickecd
+* new lottery starts when the winner is pickecd
 
 ### 05_lottery_no_limit.sol
 * no limit for users   
@@ -55,11 +55,19 @@ Try to write a contract yourself before checking the code in the repo!
 * next lottery can start 
 
 ### 07_basic_token
+* intial supply of tokens is set on creation
 * contract creator gets initial tokens
 * tokens can be transferred to any account
-* there is protection from overflow
+* there is a protection from overflow
 * everyone can check balances
 
+### 08_ERC_20_token
+### 09_fundraising
+* fundraising has the goal to reach (amount is set on creation)
+* fundraising has the time limit (time is set on creation)
+* anyone can add any amount until time is up or the goal is reached
+* when the time is up but the goal is not reached users can withdraw their funds
+* when the goal is reached owner can withdraw all the money
 ## Like it?
 If you like it please share it with others :)
 
