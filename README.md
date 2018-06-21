@@ -62,6 +62,7 @@ Try to write a contract yourself before checking the code in the repo!
 * everyone can check balances
 
 ### 08_ERC_20_token
+* implement ERC20 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
 ### 09_fundraising
 * fundraising has the goal to reach (amount is set on creation)
