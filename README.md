@@ -1,7 +1,8 @@
 # learning-solidity-2018
 
-These examples are part of my guide [The best way to become Ethereum Developer in 2018](https://medium.com/@pbrudny/the-best-way-to-become-ethereum-solidity-developer-in-2018-5606e54646e6)
+These examples are part of my guide [The best way to become Ethereum Developer in 2018] (https://medium.com/@pbrudny/the-best-way-to-become-ethereum-solidity-developer-in-2018-5606e54646e6)
 
+and `30/30 challenge` on [polish ethereum programming](https://www.facebook.com/groups/531936723867447/?ref=bookmarks) FB group.
 
 In Ethereum world everything is changing dynamically.
 I decided to make a set of Smart Contracts for learning purposes.
@@ -64,7 +65,10 @@ Try to write a contract yourself before checking the code in the repo!
 ### 08_ERC_20_token
 * implement ERC20 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
-### 09_fundraising
+### 09_ERC_721_token
+* implement ERC721 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+
+### 10_fundraising
 * fundraising has the goal to reach (amount is set on creation)
 * fundraising has the time limit (time is set on creation)
 * anyone can add any amount until time is up or the goal is reached
@@ -76,12 +80,12 @@ Try to write a contract yourself before checking the code in the repo!
 * feel free to add your solution to any challenge (of course if it's different than the existing one)
 
 ### Example: 
-If you want to add another Fundraising contract:
+If you want to add another Basic Token contract:
 1. Fork the repo
-2. Add `fundraising_b.sol` to the `09_fundraising` directory
+2. Add `basic_token_b.sol` to the `07_basic_token` directory
 3. Make a PR
 4. Let me review it and merge it
-5. Enjoy having nice contribution to the great project :)
+5. Enjoy having a nice contribution to the great project :)
 
 ## Like it?
 If you like it please share it with others :)
