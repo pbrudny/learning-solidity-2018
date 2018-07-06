@@ -17,7 +17,7 @@ contract LotteryMultipleWinners {
     
     function join(uint8 _chosenNumber) payable public {
         require(_chosenNumber > 0 && _chosenNumber <= 100, "Number must be in 1-100");
-        require(msg.value == 1 ether, "Transfer 1 Eth to join");
+        require(msg.value == 0.1 ether, "Transfer 0.1 Eth to join");
         choices[_chosenNumber].push(msg.sender);   
     }
     
