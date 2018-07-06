@@ -33,7 +33,7 @@ Try to write a contract yourself before checking the code in the repo!
 
 ### 04_lottery_10_users.sol
 * 10 users limit
-* user has to pay 0.1 ether to join the Lottery
+* user has to pay 0.1 ether to join the lottery
 * same user can join once
 * owner of the contract can join the lottery
 * when 10 users join then the winner is picked
@@ -41,11 +41,13 @@ Try to write a contract yourself before checking the code in the repo!
 * new lottery starts when the winner is pickecd
 
 ### 05_lottery_no_limit.sol
-* no limit for users   
+* user has to pay 0.1 ether to join the lottery
+* no limit for users number   
 * same user can join multiple times
 * owner of the contract can join too
 * owner decides when to pick the winner
 * winner receives all the money
+* new lottery starts when the winner is pickecd
 
 ### 06_lottery_muliple_winners
 * no limit for users
@@ -55,25 +57,25 @@ Try to write a contract yourself before checking the code in the repo!
 * 0.5 of the prize is distributed to all winners
 * next lottery can start 
 
-### 07_basic_token
+### 07_fundraising
+* fundraising has the goal to reach (amount is set on creation)
+* fundraising has the time limit (time is set on creation)
+* anyone can add any amount until time is up or the goal is reached
+* when the time is up but the goal is not reached users can withdraw their funds
+* when the goal is reached owner can withdraw all the money
+
+### 08_basic_token
 * intial supply of tokens is set on creation
 * contract creator gets initial tokens
 * tokens can be transferred to any account
 * there is a protection from overflow
 * everyone can check balances
 
-### 08_ERC_20_token
+### 09_ERC_20_token
 * implement ERC20 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
-### 09_ERC_721_token
+### 10_ERC_721_token
 * implement ERC721 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
-
-### 10_fundraising
-* fundraising has the goal to reach (amount is set on creation)
-* fundraising has the time limit (time is set on creation)
-* anyone can add any amount until time is up or the goal is reached
-* when the time is up but the goal is not reached users can withdraw their funds
-* when the goal is reached owner can withdraw all the money
 
 ## Contribution
 * feel to free to add new challenges in the README.

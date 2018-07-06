@@ -15,7 +15,7 @@ contract LotteryNoLimit {
     }
     
     function join() payable public {
-        require(msg.value == 1 ether, "Send 1 Ether");
+        require(msg.value == 0.1 ether, "Send 0.1 Ether");
         users.push(msg.sender);
     }
     
