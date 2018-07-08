@@ -54,8 +54,7 @@ Try to write a contract yourself before checking the code in the repo!
 * user joins paying 0.1 eth and picking number 1-100
 * owner decides when to generate random number (1-100) 
 * users who picked generated numbers win
-* 0.5 of the prize is distributed to all winners
-* next lottery can start 
+* total prize is distributed to all winners
 
 ### 07_fundraising
 * fundraising has the goal to reach (amount is set on creation)
