@@ -73,8 +73,15 @@ Try to write a contract yourself before checking the code in the repo!
 ### 09_ERC_20_token
 * implement ERC20 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
 
-### 10_ERC_721_token
-* implement ERC721 token based on [the EIP specification]( https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md)
+### 10_ERC20_usage
+* create your own ERC20 token using Open Zeppelin implementation
+* inherit from "StandardToken"
+* add custom name, symbol, decimals and initial supply
+
+### 11_ERC_721_usage
+* create your own ERC721 token using Open Zeppelin implementation
+* inherit from "ERC721Token"
+* add custom name and symbol
 
 ## Contribution
 * feel to free to add new challenges in the README.
