@@ -7,18 +7,18 @@ contract Lottery10Users {
 
     function join() public payable {
         require(msg.value == 0.1 ether, "Must send 0.1 ether");
-        require(participantsCount < 3, "User limit reached");
+        require(participantsCount < 10, "User limit reached");
         require(joinedAlready(msg.sender) == false, "User already joined");
         participants[participantsCount] = msg.sender;
         participantsCount++;
-        if (participantsCount == 3) {
+        if (participantsCount == 10) {
             selectWinner();
         }
     }
     
     function joinedAlready(address _participant) private view returns(bool) {
         bool containsParticipant = false;
-        for(uint i = 0; i < 3; i++) {
+        for(uint i = 0; i < 10; i++) {
             if (participants[i] == _participant) {
                 containsParticipant = true;
             }
@@ -27,7 +27,7 @@ contract Lottery10Users {
     }
     
     function selectWinner() private returns(address) {
-        require(participantsCount == 3, "Waiting for more users");
+        require(participantsCount == 10, "Waiting for more users");
         address winner = participants[randomNumber()];
         winner.transfer(address(this).balance);
         delete participants;
@@ -36,7 +36,7 @@ contract Lottery10Users {
     }
     
     function randomNumber() private returns(uint) {
-        uint rand = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % 3;
+        uint rand = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % 10;
         randNonce++;
         return rand;
     }
