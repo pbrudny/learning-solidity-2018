@@ -83,6 +83,9 @@ Try to write a contract yourself before checking the code in the repo!
 * inherit from "ERC721Token"
 * add custom name and symbol
 
+## want more?
+Check [Truffle examples](https://github.com/pbrudny/truffle-challanges)
+
 ## Contribution
 * feel to free to add new challenges in the README.
 * feel free to add your solution to any challenge (of course if it's different than the existing one)
