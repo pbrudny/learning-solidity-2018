@@ -11,7 +11,7 @@ I know it's funny to name a repo this way but I am quite convinced that in 2019 
 
 Try to write a contract yourself before checking the code in the repo!
 
-## Examples
+## Challenges
 
 ### 01_say_hello.sol
 * set greeting on creation and allow to change it by the owner (creator of the contract)
