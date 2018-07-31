@@ -84,8 +84,8 @@ Try to write a contract yourself before checking the code in the repo!
 * add custom name and symbol
 
 ## Other challenges
-[Truffle challenges: 12-29](https://github.com/pbrudny/truffle-challanges)
-[Web3 challenge: 30](https://github.com/pbrudny/web3-deploy-example)
+* [Truffle challenges: 12-29](https://github.com/pbrudny/truffle-challanges)
+* [Web3 deploy challenge: 30](https://github.com/pbrudny/web3-deploy-example)
 
 ## Contribution
 * feel to free to add new challenges in the README.
