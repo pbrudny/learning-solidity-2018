@@ -1,14 +1,15 @@
-pragma solidity ^0.4.22;
+
+pragma solidity ^0.8.0;
 
 contract Checker {
     address owner;
     
-    constructor() public {
+    constructor() {
         owner = msg.sender;    
     }
     
     modifier onlyOwner() {
-        require(msg.sender == owner);
+        require(msg.sender == owner, "Not the contract owner");
         _;
     }
     
@@ -25,7 +26,7 @@ contract Checker {
     }
     
     function getAddressOfContract() public view returns(address) {
-        return this;
+        return address(this);
     }
    
     function getAddressOfOwner() public view returns(address) {
