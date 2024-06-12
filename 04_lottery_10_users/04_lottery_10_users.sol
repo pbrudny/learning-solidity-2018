@@ -20,6 +20,7 @@ contract Lottery10Users {
         require(msg.value == ticketPrice, "Must send 0.1 ether");
         require(participantsCount < 10, "User limit reached");
         require(!joinedAlready(msg.sender), "User already joined");
+        //Added "!" instead of use "== False"
 
         participants[participantsCount] = msg.sender;
         participantsCount++;
