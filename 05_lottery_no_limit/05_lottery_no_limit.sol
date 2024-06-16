@@ -1,33 +1,35 @@
-pragma solidity ^0.4.23;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
 
 contract LotteryNoLimit {
-    address owner;
-    address[] users;
-    uint randNonce = 0;
+    address public owner;
+    address[] public users;
+    uint private randNonce = 0;
+
     
     modifier isOwner() {
         require(msg.sender == owner, "only owner can do that");
         _;
     }
     
-    constructor() public {
+    constructor() {
         owner = msg.sender;    
     }
     
-    function join() payable public {
+    function join() external payable {
         require(msg.value == 0.1 ether, "Send 0.1 Ether");
         users.push(msg.sender);
     }
     
-    function selectWinner() public isOwner {
+    function selectWinner() external isOwner {
         require(users.length > 0, "No users in the lottery");
-        users[randomNumber(users.length)].transfer(address(this).balance);  
+        address winner = users[randomNumber(users.length)];
+        payable(winner).transfer(address(this).balance);
         delete users;
     }
     
     function randomNumber(uint _limit) private returns(uint) {
-        uint rand = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % _limit;
         randNonce++;
-        return rand;
+        return uint(keccak256(abi.encodePacked(block.timestamp, msg.sender, randNonce))) % _limit;
     }
 }
