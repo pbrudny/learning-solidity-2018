@@ -1,4 +1,5 @@
-# learning-solidity-2018
+# learning solidity ~~2018~~ [We are updating this project in 2024 😎]
+
 
 These examples are part of my guide [The best way to become Ethereum Developer in 2018](https://medium.com/@pbrudny/the-best-way-to-become-ethereum-solidity-developer-in-2018-5606e54646e6)
 
